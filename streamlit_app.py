@@ -91,7 +91,7 @@ def load_data(data_dir="data"):
 st.set_page_config(page_title="อาหารพื้นถิ่นไทย", page_icon="🍲", layout="wide")
 st.title("อาหารพื้นถิ่นไทย 🍲")
 
-data = load_data("data")
+data = load_data("foods.csv")
 
 if data.empty:
     st.warning("⚠️ ไม่พบข้อมูล กรุณาเพิ่มไฟล์ CSV หรือ PDF ในโฟลเดอร์ `data/`")
