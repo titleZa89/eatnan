@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 
 # โหลดข้อมูล
-data = pd.read_csv("data/local_food.csv")
+data = pd.read_csv("data/")
 
 st.title("อาหารพื้นถิ่นไทย 🍲")
 
